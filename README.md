@@ -3,6 +3,9 @@ PlugScripts
 
 I have moved the scripts here. Plug.dj updated the site to use SSL(HTTPS), and to run javascript files on an SSL protected site, the site hosting the javascript file needs to also be using SSL. This was cheaper than getting an SSL certificate.
 
+If you have any questions, send them in an email to lasermedia@plugscripts.com
+
+===========
 
 How to use the scripts:
 
