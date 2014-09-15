@@ -2,7 +2,7 @@ PlugScripts
 ===========
 How to use the scripts:
 
-Add the corresponding code to the destination of a bookmark.
+Add the corresponding code to the destination of a bookmark. (You need to add everything from "javascript" up until the last ";".
 
 Block Youtube:
 
