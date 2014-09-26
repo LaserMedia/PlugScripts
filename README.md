@@ -11,8 +11,8 @@ Add the corresponding code to the destination of a bookmark. (You need to add ev
 
 Block Youtube:
 
-javascript:(function(){$.getScript('https://raw.githubusercontent.com/LaserMedia/PlugScripts/master/block-youtube.js');}());
+javascript:(function(){$.getScript('https://rawgit.com/LaserMedia/PlugScripts/master/block-youtube.js');}());
 
 Roulette:
 
-javascript:(function(){$.getScript('https://raw.githubusercontent.com/LaserMedia/PlugScripts/master/roulette.js');}());
+javascript:(function(){$.getScript('https://rawgit.com/LaserMedia/PlugScripts/master/roulette.js');}());
