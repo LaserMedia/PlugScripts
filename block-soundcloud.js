@@ -15,8 +15,14 @@ if (typeof originalMessage==='undefined'){
 		originalMessage="";
 		welcome="SoundCloudSkip Active.";
 	}
-	else{
-		welcome+=" SoundCloudSkip Active.";
+	else if (welcome.indexOf(" SoundCloudSkip Active.")>-1){
+		originalMessage=welcome.substring(0,welcome.length-20);
+	}
+	else if (welcome.indexOf("SoundCloudSkip Active.")>-1){
+		originalMessage=welcome.substring(0,welcome.length-19);
+	}
+	else {
+	welcome+=" SoundCloudSkip Active.";
 	}
 	$.ajax({
 		type: 'POST',

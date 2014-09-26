@@ -15,8 +15,14 @@ if (typeof originalMessage==='undefined'){
 		originalMessage="";
 		welcome="YouTubeSkip Active.";
 	}
-	else{
-		welcome+=" YouTubeSkip Active.";
+	else if (welcome.indexOf(" YoutubeSkip Active.")>-1){
+		originalMessage=welcome.substring(0,welcome.length-20);
+	}
+	else if (welcome.indexOf("YoutubeSkip Active.")>-1){
+		originalMessage=welcome.substring(0,welcome.length-19);
+	}
+	else {
+	welcome+=" YouTubeSkip Active.";
 	}
 	$.ajax({
 		type: 'POST',
